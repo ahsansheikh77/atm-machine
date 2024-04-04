@@ -1,9 +1,13 @@
 {
-  "name": "atm-machine",
+  "name": "a72rcr2-atm-machine",
   "version": "1.0.0",
   "description": "this is a atm machine",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
